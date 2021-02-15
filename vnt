@@ -17,4 +17,80 @@ composer require laravel/ui:^2.4
 github laravel ui 
 composer require laravel/ui
 
+php artisan ui bootstrap --auth
+npm install
+
+https://github.com/MarcosVnt/la8ui  Git_654*
+
+echo "# la8ui" >> README.md
+git init
+    git add README.md
+git add . 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MarcosVnt/la8ui.git
+git push -u origin main
+
+LLEVADO A SERVIDOR 188, RUTASGP
+
+creada database en 188 la8ui
+
+acceso por ssh a ip 188 con user vnt 
+
+en directorio la8ui  ejecutamos 
+composer install
+npm install
+
+
+sudo chmod -R 755 storage
+sudo chmod -R 755 bootstrap/cache
+
+
+cd {laravel_root}/storage
+mkdir -pv framework/views app framework/sessions framework/cache
+cd ..
+chmod 777 -R storage
+chown -R www-data:www-data storage
+
+sudo chmod -R 755 storage
+sudo chmod -R 755 bootstrap/cache
+Recommended:- How to Get Random R
+
+
+
+https://tecadmin.net/laravel-file-permissions/
+sudo chown -R www-data:www-data /la8ui
+
+cd /var/www/vhosts/rutasgp.com/httpdocs/la8ui
+
+sudo chown -R www-data:www-data /var/www/vhosts/rutasgp.com/httpdocs/la8ui
+
+sudo find /var/www/vhosts/rutasgp.com/httpdocs/la8ui -type f -exec chmod 644 {} \;
+sudo find /var/www/vhosts/rutasgp.com/httpdocs/la8ui -type d -exec chmod 755 {} \;
+
+
+sudo find /path/to/laravel -type f -exec chmod 644 {} \;
+sudo find /path/to/laravel -type d -exec chmod 755 {} \;
+
+
+cd /path/to/laravel
+sudo chgrp -R www-data storage bootstrap/cache
+sudo chmod -R ug+rwx storage bootstrap/cache
+
+sudo usermod -a -G www-data ubuntu
+
+
+AppServiceProvider.php
+
+use Illuminate\Support\Facades\Schema;
+
+public function boot()
+{
+    Schema::defaultStringLength(191);
+}
+
+
+
+
+
 
