@@ -1,0 +1,20 @@
+composer  create-project laravel/laravel --prefer-dist la8ui
+
+notaria
+
+composer require laravel/ui:^2.4
+
+    Check https://getcomposer.org/doc/articles/troubleshooting.md#memory-limit-errors for more info on how to handle out of memory errors.
+    php -r "echo ini_get('memory_limit').PHP_EOL;"
+
+    php memory_limit=1.5G 
+    reset apache
+
+    php memory_limit=-1
+    reset apache
+    
+
+github laravel ui 
+composer require laravel/ui
+
+
